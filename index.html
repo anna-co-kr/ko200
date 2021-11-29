@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김 이백 그리고 고 희정</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+        <header>
+            <ul class="header_name">
+                <li>김<br>이<br>백</li>
+                <li>고<br>희<br>정</li>
+            </ul>
+            
+            <img class="header_img" src="/media/wedding_4.jpeg"/>
+            <img class="header_wedding_font" src="/media/header_wedding_font.svg"/>
+        </header>
+        <main>
+            <div class="main_date">12/18</div>
+            <div class="main_info">2021.12.18 (토) 오후 5시</div>
+            <div class="main_info">메리스 에이프럴 ( Mary's April )</div>
+
+            <img src="/media/main_flower.png" class="main_flower">
+            <p>
+                오랜 기다림 속에서<br>
+                평생을 같이 하고픈 사람을 만났습니다.<br>
+                진실과 이해로서 만난 두 사람이<br>
+                이제 한 마음 되어 같은 길을 가고자 합니다.<br>
+                이에 양가 가족과 친지분들을 모시고<br>
+                작은 결혼식을 올리고자 하오니,<br>
+                축복해 주시면 더 없는 격려와 기쁨이겠습니다.
+            </p>
+
+            <div class="main_name">
+                <div class="main_name_bold"><span id="main_name_font_size">신랑</span> 김 이백</div>
+                <img src="/media/main_name_heart.svg">
+                <div class="main_name_bold"><span id="main_name_font_size">신부</span> 고 희정</div> 
+            </div>
+
+            <img src="/media/wedding_3.jpeg">
+            <img src="/media/wedding_1.jpeg">
+
+            <div>오시는 길</div>
+
+        </main>
+    </div>
+</body>
+</html>
+
+<style>
+
+    /* common */
+
+    @font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    ul {
+        list-style: none;
+        margin:0;
+    }
+    body {
+        background:#FEFBFB;
+        margin:0;
+        font-family: 'MapoGoldenPier', 'san serif'; 
+    }
+    header {
+        height:100%;
+    }
+    main {
+        text-align: center;
+        position: relative;
+        top: -7vh;
+        font-size: 16px;
+    }
+    p {
+        line-height:200%;
+        letter-spacing:-.05rem;
+    }
+    img {
+        width:100%;
+    }
+
+    /* header */
+
+    .body {
+        max-width:800px;
+        width:100%;
+        margin:0 auto;
+    }
+    .header_name {
+        font-size: 1.2rem;
+        line-height:150%;
+    }
+    .header_name li {
+        display: inline-block;
+        position:absolute;
+    }
+    .header_name li:first-child {
+        right:29vw;
+        top:8vh;
+    }
+    .header_name li:nth-child(2) {
+        right:19vw;
+        top:13vh;
+    }
+
+    .header_wedding_font {
+        width: 100%;
+        position: relative;
+        top:-8vh;
+    }
+
+    /* main */
+    .main_name {
+        display:flex;
+        justify-content: center;
+        margin: 8vh 0;
+    }
+    .main_name img {
+        margin: 0 4vw;
+        width: 6vw;
+    }
+    .main_date {
+        font-size: 3rem;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        letter-spacing: 0.3rem;
+        padding-bottom:1vh;
+    }
+    .main_info {
+        line-height:200%;
+    }
+    .main_flower {
+        width:13vw;
+        margin: 8vh 0;
+    }
+    .main_name_bold {
+        font-size: 1.5rem;
+    }
+    #main_name_font_size {
+        font-size: 16px;
+    }
+</style>
